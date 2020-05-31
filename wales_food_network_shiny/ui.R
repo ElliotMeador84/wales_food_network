@@ -17,20 +17,20 @@ library(shinyWidgets)
 
 # shiny-helper-functions --------
 
-source('functions.R')
+source('wales_food_network_shiny/functions.R')
 
 # source data -----------
 
-source('mock_data.R')
+source('wales_food_network_shiny/mock_data.R')
 
 # data cleaning ---------
 
-source('data_clean.R') # full_graph
+source('wales_food_network_shiny/data_clean.R') # full_graph
 
 
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
-    includeCSS("www/custom.css"),
+    includeCSS("wales_food_network_shiny/www/custom.css"),
     
     # Application title
         titlePanel("Wales Food Network (prototype)"),

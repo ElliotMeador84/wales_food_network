@@ -5,9 +5,6 @@
 # -------- SERVER --------
 
 
-## WORKING DIRECTORY
-setwd("/Users/emeador/Documents/R/wales_food_network/wales_food_network_shiny")
-
 
 # libraries -----------
 
@@ -21,16 +18,15 @@ library(visNetwork)
 
 
 # shiny-helper-functions --------
-
-source('functions.R')
+source('wales_food_network_shiny/functions.R')
 
 # source data -----------
 
-source('mock_data.R')
+source('wales_food_network_shiny/mock_data.R')
 
 # data cleaning ---------
 
-source('data_clean.R') # full_graph
+source('wales_food_network_shiny/data_clean.R') # full_graph
 
 
 # Define server logic required to draw a histogram
