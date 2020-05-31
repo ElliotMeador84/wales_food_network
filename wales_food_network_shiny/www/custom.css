@@ -1,0 +1,228 @@
+
+
+body{
+  background-color:#FAEBD7;
+  color:black;
+}
+
+
+/* top label header */
+h2 { 
+  color: #d4374a; /* Cardiff red*/
+  font-stretch: semi-expanded;
+  font-weight: bold;
+  font-family:DejaVu Sans;
+  font-size: 60px;
+  text-align: left;
+}
+
+p {
+  color:black;
+  font-size: 13px;
+}
+
+/* pill-box sliders */
+h6 {
+  color: #F5F5F5; /* snow*/
+  background-color: #d4374a; /* Cardiff red*/
+  font-size:15px;
+  border: 1px solid black;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px; 
+}
+
+
+
+.dropdown{      
+  color: #F5F5F5; /* snow*/
+  background-color: #d4374a; /* Cardiff red*/
+  font-weight: bold;
+  font-size:13px;
+  width:90px;
+  height:90%;
+  border: 0.1px solid black;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px; 
+}
+
+
+
+
+h3{
+  color:black;
+  font-size:17px;
+} 
+
+
+h4 {
+  color: #d4374a;
+  font-size: 25px;
+}
+
+.vis-network{
+  background-color: #FFFFFF;
+  border: 2px solid black;
+  margin: black;
+}
+
+.titlenetwork_hello{
+  color:blue;
+}
+
+div.vis-network div.vis-navigation div.vis-button.vis-up, 
+div.vis-network div.vis-navigation div.vis-button.vis-down, 
+div.vis-network div.vis-navigation div.vis-button.vis-left, 
+div.vis-network div.vis-navigation div.vis-button.vis-right, 
+div.vis-network div.vis-navigation div.vis-button.vis-zoomIn, 
+div.vis-network div.vis-navigation div.vis-button.vis-zoomOut, 
+div.vis-network div.vis-navigation div.vis-button.vis-zoomExtends {
+  background-image: none !important;
+}
+
+div.vis-network div.vis-navigation div.vis-button:hover {
+  box-shadow: none !important;
+}
+
+.vis-button:after {
+  font-size: 2em;
+  color: gray;
+}
+
+.vis-button:hover:after {
+  font-size: 2em;
+  color: lightgray;
+}
+
+.vis-button.vis-up:after {
+  content: "▲";
+  color:black;
+}
+
+.vis-button.vis-down:after {
+  content: "▼";
+  color:black;
+}
+
+.vis-button.vis-left:after {
+  content: "◀";
+  color:black;
+}
+
+.vis-button.vis-right:after {
+  content: "▶";
+  color:black;
+}
+
+.vis-button.vis-zoomIn:after {
+  content: "+";
+  color:black;
+  font-weight: bold;
+}
+
+.vis-button.vis-zoomOut:after {
+  content: "−";
+  color:black;
+  font-weight: bold;
+}
+
+.vis-button.vis-zoomExtends:after {
+  content: "⤧";
+  color:black;
+}
+
+            /* NAVIGATION BAR */
+
+/* found here https://stackoverflow.com/questions/52968447/how-to-set-color-of-tabpanel-title-in-navbarpage-of-a-shiny-app 
+*/
+
+.navbar-default .navbar-brand {
+  color: white;
+  
+}
+.navbar-default .navbar-brand:hover {
+  color: white;
+  
+}
+
+.navbar {
+  background-color: #428bca;
+      font-size:20px;
+      font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+  
+  color:white;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+
+.navbar-default .navbar-nav > .active > a:hover {
+  
+  color:black;
+  background-color: white;
+  
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: black;
+  background-color:white;
+  text-decoration:underline;
+  
+}
+
+.navbar-default .navbar-nav > li > a[data-value='t1'] {
+  color: red;
+  background-color: pink;
+  
+}
+
+.navbar-default .navbar-nav > li > a[data-value='t2'] {
+  color: blue;
+  background-color: lightblue;
+  
+}
+
+.navbar-default .navbar-nav > li > a[data-value='t3'] {
+  color: green;
+  background-color: lightgreen;
+  
+}
+
+/* side panel */
+.well {
+  background-color: #F5F5F5;
+  border-color:#8B7E66;
+  padding-box: 5px;
+}
+
+/* side panel outside box*/
+/*.col-sm-4{
+  background-color:white;
+  padding-box: 1px;
+}*/
+
+/* slider bar */
+.irs-bar {
+  border-top: black;
+  border-bottom: black;
+  background:black;
+}
+
+.irs-bar-edge{
+  background: blue;
+  border: 100px;
+}
+
+.irs-single{
+  background:blue;
+  border:1px;
+}
+
+/* slider text */
+.irs-grid-text{
+  color:black;
+}
+
+
