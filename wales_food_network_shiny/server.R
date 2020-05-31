@@ -18,15 +18,15 @@ library(visNetwork)
 
 
 # shiny-helper-functions --------
-source('wales_food_network_shiny/functions.R')
+source('functions.R')
 
 # source data -----------
 
-source('wales_food_network_shiny/mock_data.R')
+source('mock_data.R')
 
 # data cleaning ---------
 
-source('wales_food_network_shiny/data_clean.R') # full_graph
+source('data_clean.R') # full_graph
 
 
 # Define server logic required to draw a histogram

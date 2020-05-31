@@ -5,6 +5,6 @@ account: elliotmeador84
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2384361
-bundleId: 3210293
+bundleId: 3210512
 url: https://elliotmeador84.shinyapps.io/wales_food_network_shiny/
-when: 1590913355.62744
+when: 1590922155.09701
