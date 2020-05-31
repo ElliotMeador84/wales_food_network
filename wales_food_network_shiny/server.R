@@ -138,16 +138,12 @@ shinyServer(function(input, output) {
       visExport() 
   })
   
-  
   observe({
     visNetworkProxy("network_hello") %>%
       visFocus(id = input$Focus, scale = 1, locked = F)
   })
   
-  observe({
-    visNetworkProxy("network_proxy_nodes") %>%
-      visNodes(size = input$size)
-  })
+
   
   
   

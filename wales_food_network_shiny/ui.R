@@ -7,18 +7,33 @@
 #    http://shiny.rstudio.com/
 #
 
+
+
 library(shiny)
 library(visNetwork)
 library(shinythemes)
 library(shinyjs)
 library(shinyWidgets)
+
+# shiny-helper-functions --------
+
+source('functions.R')
+
+# source data -----------
+
+source('mock_data.R')
+
+# data cleaning ---------
+
+source('data_clean.R') # full_graph
+
+
 # Define UI for application that draws a histogram
 shinyUI(fluidPage(
     includeCSS("www/custom.css"),
     
     # Application title
-        titlePanel("Wales Food Network"),
-    # setBackgroundColor('#FFF5EE'),
+        titlePanel("Wales Food Network (prototype)"),
     navbarPage("MENU",
                tabPanel('About WLF',
 
@@ -36,8 +51,6 @@ h4('Project stakeholders'),
         sidebarPanel(
             selectInput("Focus", tags$h6("Focus on node"),
                         choices =  org_names_100[order(org_names_100)]),
-            selectInput("size", "Node size",
-                        choices = 1:100),
           useShinyjs(), # wrap entire UI with this
            div(id = "form",
             sliderInput(
@@ -68,7 +81,6 @@ h4('Project stakeholders'),
             actionButton('resetAll', 
                          label = 'Reset all filters')
         )),
-        
         
         # Show a plot of the generated distribution
         mainPanel(
