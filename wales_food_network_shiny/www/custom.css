@@ -1,14 +1,14 @@
 
 
 body{
-  background-color:#FAEBD7;
+  background-color:#F8F8FF;/*#FAEBD7; /*#FAEBD7*/
   color:black;
 }
 
 
 /* top label header */
 h2 { 
-  color: #d4374a; /* Cardiff red*/
+  color: #000000;/* #d4374a; /* Cardiff red*/
   font-stretch: semi-expanded;
   font-weight: bold;
   font-family:DejaVu Sans;
@@ -23,8 +23,8 @@ p {
 
 /* pill-box sliders */
 h6 {
-  color: #F5F5F5; /* snow*/
-  background-color: #d4374a; /* Cardiff red*/
+  color: #F5F5F5; /*#F5F5F5; /* snow*/
+  background-color:#36648B;/* #d4374a; /* Cardiff red*/
   font-size:15px;
   border: 1px solid black;
   padding: 5px 5px 5px 5px;
@@ -51,11 +51,16 @@ h6 {
 h3{
   color:black;
   font-size:17px;
+    /*border: 2px solid black;
+    padding: 25px 25px 25px 25px;
+  background-color:white;*/
 } 
 
 
 h4 {
-  color: #d4374a;
+  color: black; /* #d4374a*/
+   text-decoration: underline;
+   
   font-size: 25px;
 }
 
@@ -145,7 +150,8 @@ div.vis-network div.vis-navigation div.vis-button:hover {
 }
 
 .navbar {
-  background-color: #428bca;
+  background-color: #36648B; 
+  /*#428bca lightblue*/
       font-size:20px;
       font-weight: bold;
 }

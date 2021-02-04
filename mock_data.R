@@ -16,7 +16,7 @@ options(warn = -1)
 
 create_sna_data <- 
   tibble( # let's pull 100 random names to start
-    resp_name = randomNames(100,
+    resp_name = randomNames(200,
                             which.names = 'both'))
 
 
